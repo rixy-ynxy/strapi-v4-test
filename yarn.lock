@@ -2832,7 +2832,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@strapi/typescript-utils@npm:4.6.1":
+"@strapi/typescript-utils@npm:4.6.1, @strapi/typescript-utils@npm:^4.6.1":
   version: 4.6.1
   resolution: "@strapi/typescript-utils@npm:4.6.1"
   dependencies:
@@ -3895,6 +3895,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"arrify@npm:^2.0.0":
+  version: 2.0.1
+  resolution: "arrify@npm:2.0.1"
+  checksum: 29cf671ec2787421dde2aaca2e908812f9305089a8ee7fc725ff6e20cfa03d79ddf358377b0c7e297a2cf443194b784d4faf4ad6474023c2c4c87dc728948cc3
+  languageName: node
+  linkType: hard
+
 "asn1.js@npm:^5.2.0, asn1.js@npm:^5.3.0":
   version: 5.4.1
   resolution: "asn1.js@npm:5.4.1"
@@ -4100,7 +4107,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"base64-js@npm:^1.3.1":
+"base64-js@npm:^1.3.0, base64-js@npm:^1.3.1":
   version: 1.5.1
   resolution: "base64-js@npm:1.5.1"
   checksum: fbd7996978cfe0dd378103fa8999e4acee99b8840d49f452457fa8cb418bad4c20ec9ef6b196a0dc63591f0416a4b8c8d220607292cdaf3998b88685bc0f6c14
@@ -4156,6 +4163,13 @@ __metadata:
   version: 5.2.2
   resolution: "big.js@npm:5.2.2"
   checksum: 1c63accd17ba7d86676380280190cf748c6f715b74ddc36a3999d20689f78e59f6f76958fb811d40b57efca8dfaaacdc4508521d06a8a8d1e86194bc0f4b4575
+  languageName: node
+  linkType: hard
+
+"bignumber.js@npm:^9.0.0":
+  version: 9.1.1
+  resolution: "bignumber.js@npm:9.1.1"
+  checksum: e44d00804916c299d01e1a83b435111dbced54c6f165df4a0034a8a0a27182d6698f93f408ec804b3ae80896fd6ad8ad43f37939883dc03ecd04a125742f1483
   languageName: node
   linkType: hard
 
@@ -5964,7 +5978,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ecdsa-sig-formatter@npm:1.0.11":
+"ecdsa-sig-formatter@npm:1.0.11, ecdsa-sig-formatter@npm:^1.0.11":
   version: 1.0.11
   resolution: "ecdsa-sig-formatter@npm:1.0.11"
   dependencies:
@@ -6476,7 +6490,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"extend@npm:^3.0.0, extend@npm:~3.0.2":
+"extend@npm:^3.0.0, extend@npm:^3.0.2, extend@npm:~3.0.2":
   version: 3.0.2
   resolution: "extend@npm:3.0.2"
   checksum: 312babdc3cfd8d5d003b109f02b8b639e8bdf2262f2f06acebfc3c991d8c004b73c2c10eaaaab00cfb2fb2a760845006806af10945b279d9390eed064505dfdb
@@ -6548,6 +6562,13 @@ __metadata:
   version: 2.1.0
   resolution: "fast-json-stable-stringify@npm:2.1.0"
   checksum: cc64810b004155f5ac29b208ebd5c862599a1a8aef3c4d27a34dfb694db7797e121dceda183507ec4a2a5413d9cb59521fd2540d0d00a5589ee6ea6bfac3c12e
+  languageName: node
+  linkType: hard
+
+"fast-text-encoding@npm:^1.0.0":
+  version: 1.0.6
+  resolution: "fast-text-encoding@npm:1.0.6"
+  checksum: c68f3c9579f9affb0423ce31480119a9bcee27dbfea1b2d948195b3449e424815f6f8bc44883da80fdc2f120bf935c53f288d12ed23b3a4615ee5aed4ea2eaaa
   languageName: node
   linkType: hard
 
@@ -6964,6 +6985,51 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gaxios@npm:^4.0.0":
+  version: 4.3.3
+  resolution: "gaxios@npm:4.3.3"
+  dependencies:
+    abort-controller: "npm:^3.0.0"
+    extend: "npm:^3.0.2"
+    https-proxy-agent: "npm:^5.0.0"
+    is-stream: "npm:^2.0.0"
+    node-fetch: "npm:^2.6.7"
+  checksum: 88fc8231139bb604dc30e272b4d8ca1364dbc1d30b728d1bbfe565bcd5114ab6729bba49917a5aa9d7f52b26de2ad71f1f50722bec5b156f3cae05e0b1a47f21
+  languageName: node
+  linkType: hard
+
+"gaxios@npm:^5.0.0, gaxios@npm:^5.0.1":
+  version: 5.0.2
+  resolution: "gaxios@npm:5.0.2"
+  dependencies:
+    extend: "npm:^3.0.2"
+    https-proxy-agent: "npm:^5.0.0"
+    is-stream: "npm:^2.0.0"
+    node-fetch: "npm:^2.6.7"
+  checksum: f1c34eeae437ae319363db050484292b4f77aa409266e269c85668b8f29dddd086e92ea5134d9f4531aa3d88533ab7aded2443d9861ed33d39038c01898d0fc2
+  languageName: node
+  linkType: hard
+
+"gcp-metadata@npm:^4.2.0":
+  version: 4.3.1
+  resolution: "gcp-metadata@npm:4.3.1"
+  dependencies:
+    gaxios: "npm:^4.0.0"
+    json-bigint: "npm:^1.0.0"
+  checksum: 24928aa141166a9e38a0565bab4446833afba30609e99471bf75d03c6674be71c565d1c7cecbd8fec675759cd4ed59f85f1a3460a0ba547f1af5a0d0551fe1c0
+  languageName: node
+  linkType: hard
+
+"gcp-metadata@npm:^5.0.0":
+  version: 5.2.0
+  resolution: "gcp-metadata@npm:5.2.0"
+  dependencies:
+    gaxios: "npm:^5.0.0"
+    json-bigint: "npm:^1.0.0"
+  checksum: bffa1833bab533b456b4cdd2871657836323e44cec1da25d994c25cdc1f3fcebdb1fd32e66ba4ccac915bd8b2178eb535992362a128df08255c4e1ee1f095756
+  languageName: node
+  linkType: hard
+
 "gensync@npm:^1.0.0-beta.2":
   version: 1.0.0-beta.2
   resolution: "gensync@npm:1.0.0-beta.2"
@@ -7155,6 +7221,86 @@ __metadata:
   languageName: node
   linkType: hard
 
+"google-auth-library@npm:^7.0.2, google-auth-library@npm:^7.14.0":
+  version: 7.14.1
+  resolution: "google-auth-library@npm:7.14.1"
+  dependencies:
+    arrify: "npm:^2.0.0"
+    base64-js: "npm:^1.3.0"
+    ecdsa-sig-formatter: "npm:^1.0.11"
+    fast-text-encoding: "npm:^1.0.0"
+    gaxios: "npm:^4.0.0"
+    gcp-metadata: "npm:^4.2.0"
+    gtoken: "npm:^5.0.4"
+    jws: "npm:^4.0.0"
+    lru-cache: "npm:^6.0.0"
+  checksum: ae7b72798725df21c068f8cecb16f3de171bce9a1d4534bc9e294c7012b73183a1d0d3d19e0b3f6e0eced4849fa1dbff110e7482567ded5284ab7cbefcf3b38e
+  languageName: node
+  linkType: hard
+
+"google-auth-library@npm:^8.0.2":
+  version: 8.7.0
+  resolution: "google-auth-library@npm:8.7.0"
+  dependencies:
+    arrify: "npm:^2.0.0"
+    base64-js: "npm:^1.3.0"
+    ecdsa-sig-formatter: "npm:^1.0.11"
+    fast-text-encoding: "npm:^1.0.0"
+    gaxios: "npm:^5.0.0"
+    gcp-metadata: "npm:^5.0.0"
+    gtoken: "npm:^6.1.0"
+    jws: "npm:^4.0.0"
+    lru-cache: "npm:^6.0.0"
+  checksum: 2da7227065a509f41145c90f365a979c9fb07487da984bdb2b1ead975decff3ae1779d9e35fe6ee581d2d1b01c8ec3e60e80e14bb04b9f0191b1323e002cf231
+  languageName: node
+  linkType: hard
+
+"google-p12-pem@npm:^3.1.3":
+  version: 3.1.4
+  resolution: "google-p12-pem@npm:3.1.4"
+  dependencies:
+    node-forge: "npm:^1.3.1"
+  bin:
+    gp12-pem: build/src/bin/gp12-pem.js
+  checksum: edb6376972f65c064bc5686cc230825e7f4ba9026ef7681912bdf158e0060e80a536c4633d0cfe145b7716f675cf69787fb832afd107eb96f3b7db4c66938afd
+  languageName: node
+  linkType: hard
+
+"google-p12-pem@npm:^4.0.0":
+  version: 4.0.1
+  resolution: "google-p12-pem@npm:4.0.1"
+  dependencies:
+    node-forge: "npm:^1.3.1"
+  bin:
+    gp12-pem: build/src/bin/gp12-pem.js
+  checksum: fc898f639a11f32dc9a214e481d041499c358bed60ca5b978128fa521b0bd487d2600f1e4e91d6111168d9731c1fc1dbd98d944d8b290ddfe9f44b3090bb6465
+  languageName: node
+  linkType: hard
+
+"googleapis-common@npm:^5.0.2":
+  version: 5.1.0
+  resolution: "googleapis-common@npm:5.1.0"
+  dependencies:
+    extend: "npm:^3.0.2"
+    gaxios: "npm:^4.0.0"
+    google-auth-library: "npm:^7.14.0"
+    qs: "npm:^6.7.0"
+    url-template: "npm:^2.0.8"
+    uuid: "npm:^8.0.0"
+  checksum: a7165fe8d33a1fac0df859d69bddc56e8e5fbe15cf68728b1482a8052c2f30398b1d9d8b4991c1b87e00cdd61771343a4815872f613e811f87c40dc5d413da60
+  languageName: node
+  linkType: hard
+
+"googleapis@npm:^100.0.0":
+  version: 100.0.0
+  resolution: "googleapis@npm:100.0.0"
+  dependencies:
+    google-auth-library: "npm:^7.0.2"
+    googleapis-common: "npm:^5.0.2"
+  checksum: 014948b58d57a73f403504a08c15c13a71446724bc83d9489418d2a9738aaa09fd915f46e67e6b40fec17fbb014fb11f581802af6f8c447d977d8e50fa8df9a1
+  languageName: node
+  linkType: hard
+
 "gopd@npm:^1.0.1":
   version: 1.0.1
   resolution: "gopd@npm:1.0.1"
@@ -7229,6 +7375,28 @@ __metadata:
   version: 16.6.0
   resolution: "graphql@npm:16.6.0"
   checksum: 686582916b9ca247f3562f086c34a6363155475da909e1f891f9a76a3b5273ed6c7034cd5a82e768670ac5a74d539a6f1be282253a92b49be3a489fc82e83a5b
+  languageName: node
+  linkType: hard
+
+"gtoken@npm:^5.0.4":
+  version: 5.3.2
+  resolution: "gtoken@npm:5.3.2"
+  dependencies:
+    gaxios: "npm:^4.0.0"
+    google-p12-pem: "npm:^3.1.3"
+    jws: "npm:^4.0.0"
+  checksum: 4dc19da6b6dd9fbc4a9cdcd16c2a4cc7efa66f420da73acb36340988b3e0e758e475cb0254058f895e207b591ef6b75ca9805f18b37c81f470775b4a9b28ef09
+  languageName: node
+  linkType: hard
+
+"gtoken@npm:^6.1.0":
+  version: 6.1.2
+  resolution: "gtoken@npm:6.1.2"
+  dependencies:
+    gaxios: "npm:^5.0.1"
+    google-p12-pem: "npm:^4.0.0"
+    jws: "npm:^4.0.0"
+  checksum: ed8dc10a6fd5e7f16b2c1d6d9e5ab7e219a6b55fc23e999a980865c3036e99c926b35bed1968bc3dbcb9e6ee874bedf5d6e115d958e99b47f5e768a6331845a9
   languageName: node
   linkType: hard
 
@@ -8504,6 +8672,15 @@ __metadata:
   bin:
     jsesc: bin/jsesc
   checksum: cba3a1fba9401771cf3bad85c8e0e2c604cfdfd85d7b1a7a8ae84317777f76c4b02d6c52da86cb8a70307ca84c3aa40a214e77bf0d5549557826b04df6df2bdf
+  languageName: node
+  linkType: hard
+
+"json-bigint@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "json-bigint@npm:1.0.0"
+  dependencies:
+    bignumber.js: "npm:^9.0.0"
+  checksum: 6e40674d13a63ea28017694c6a8cd17953be9cdba4a3b3a3d8bdb4ef3229dc0307b278a2a301b9533b6d1ac60609361e2d3bb08436a7d5d04184af23938b617e
   languageName: node
   linkType: hard
 
@@ -9974,7 +10151,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-forge@npm:^1":
+"node-forge@npm:^1, node-forge@npm:^1.3.1":
   version: 1.3.1
   resolution: "node-forge@npm:1.3.1"
   checksum: 3c81a83283b7b7992c37a689c7070e79da5013dbf9c5c5bdc829d61934a0050d748293dea462de96aa353f6e5989e46fb9070413de6da079663987a8d5892956
@@ -11187,7 +11364,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"qs@npm:6.11.0, qs@npm:^6.10.2, qs@npm:^6.10.3, qs@npm:^6.4.0, qs@npm:^6.9.6":
+"qs@npm:6.11.0, qs@npm:^6.10.2, qs@npm:^6.10.3, qs@npm:^6.4.0, qs@npm:^6.7.0, qs@npm:^6.9.6":
   version: 6.11.0
   resolution: "qs@npm:6.11.0"
   dependencies:
@@ -12794,6 +12971,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"strapi-google-auth@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "strapi-google-auth@npm:0.1.2"
+  dependencies:
+    google-auth-library: "npm:^8.0.2"
+    googleapis: "npm:^100.0.0"
+  peerDependencies:
+    "@strapi/strapi": ^4.1
+  checksum: 5c5beac57acb8f5ee5fed44b0edb66ed4d1052b1c2a835319a8827d9fc832c2a2e5e9ed9dbba3fbe590892f4ef10a6171d14f7ca302683336a2d952ddd1acd2f
+  languageName: node
+  linkType: hard
+
 "stream-browserify@npm:^3.0.0":
   version: 3.0.0
   resolution: "stream-browserify@npm:3.0.0"
@@ -13152,7 +13341,9 @@ __metadata:
     "@strapi/plugin-i18n": "npm:4.6.1"
     "@strapi/plugin-users-permissions": "npm:4.6.1"
     "@strapi/strapi": "npm:4.6.1"
+    "@strapi/typescript-utils": "npm:^4.6.1"
     pg: "npm:8.8.0"
+    strapi-google-auth: "npm:^0.1.2"
   languageName: unknown
   linkType: soft
 
@@ -13634,6 +13825,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"url-template@npm:^2.0.8":
+  version: 2.0.8
+  resolution: "url-template@npm:2.0.8"
+  checksum: 673b094f61a884e91d6c8974ff73f820538f3a6f906f33f8daf6d9a9a991d7f853a5c5d4d86e63e12ed6749489ab0f95a23b9da5ac3b0fdee3082624388e2da3
+  languageName: node
+  linkType: hard
+
 "url@npm:^0.11.0":
   version: 0.11.0
   resolution: "url@npm:0.11.0"
@@ -13724,7 +13922,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uuid@npm:^8.3.2":
+"uuid@npm:^8.0.0, uuid@npm:^8.3.2":
   version: 8.3.2
   resolution: "uuid@npm:8.3.2"
   bin:
